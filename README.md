@@ -73,9 +73,9 @@ Description: Lists all available commands that the bot can execute.
 
 ![image](https://github.com/user-attachments/assets/5061e5d4-37f0-49c3-b3fb-d0263ef2b13c)
 
-##Utilizing Commands: To begin utilizing the commands provided, simply start the program in Intellij by using the play button at the top right of the window while observing the bot class where main is located. This will start the program and now all you must do is type the desired command into the sever that the bot is in.
+## Utilizing Commands: To begin utilizing the commands provided, simply start the program in Intellij by using the play button at the top right of the window while observing the bot class where main is located. This will start the program and now all you must do is type the desired command into the sever that the bot is in.
 
-##Resorces for JDA: 
+## Resorces for JDA: 
 https://jda.wiki/introduction/jda/
 
 https://github.com/discord-jda/JDA-Website
