@@ -1,5 +1,5 @@
 # Discord-Bot
-Project Description: This project sa a Discord bot in java utilizing the JDA (Java Discord Api) libraries available for free on github. The bot is capable of some different commands, each being tailored towards fufilling the skill mastery requirements.
+Project Description: This project is a a Discord bot in java utilizing the JDA (Java Discord Api) libraries available for free on github. The bot is capable of some different commands, each being tailored towards utilizing various data structures or different techniques.
 
 Dependency and Installation Instructions: This project is expected to be used with Discord and uses gradle through intellij to handle the proccess of managing the projects dependencies. Discord can be installed via the official Discord website. It will require the making of a Discord account and you will need to go through the procces of downloading the installer and then getting the aplication on your computer. Intelij is also very simple to install and is free with its community addition similar to Discord. The installation proccess is simple just go here: https://www.jetbrains.com/idea/ to download it be sure to pick the one that is correct for your computer or operating system.
 
