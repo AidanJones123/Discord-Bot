@@ -1,9 +1,11 @@
 # Discord-Bot
 Project Description: This project is a a Discord bot in java utilizing the JDA (Java Discord Api) libraries available for free on github. The bot is capable of some different commands, each being tailored towards utilizing various data structures or different techniques.
 
-Dependency and Installation Instructions: This project is expected to be used with Discord and uses gradle through intellij to handle the proccess of managing the projects dependencies. Discord can be installed via the official Discord website. It will require the making of a Discord account and you will need to go through the procces of downloading the installer and then getting the aplication on your computer. Intelij is also very simple to install and is free with its community addition similar to Discord. The installation proccess is simple just go here: https://www.jetbrains.com/idea/ to download it be sure to pick the one that is correct for your computer or operating system.
+## Dependency and Installation Instructions: 
+This project is expected to be used with Discord and uses gradle through intellij to handle the proccess of managing the projects dependencies. Discord can be installed via the official Discord website. It will require the making of a Discord account and you will need to go through the procces of downloading the installer and then getting the aplication on your computer. Intelij is also very simple to install and is free with its community addition similar to Discord. The installation proccess is simple just go here: https://www.jetbrains.com/idea/ to download it be sure to pick the one that is correct for your computer or operating system.
 
-Project Configuration: My project has been uploaded in the form of a Intellij project. If Intellij is installed on your workstation you will be able to open my project within it. This is where you will be able to interact with and actually launch the program as well as potentially modify it depending on your needs. Some amount of configuration for the bot will be neccesary for you to actually utilize it. You will need to enter a browser and enter "Discord Developer Portal".
+## Project Configuration: 
+My project has been uploaded in the form of a Intellij project. If Intellij is installed on your workstation you will be able to open my project within it. This is where you will be able to interact with and actually launch the program as well as potentially modify it depending on your needs. Some amount of configuration for the bot will be neccesary for you to actually utilize it. You will need to enter a browser and enter "Discord Developer Portal".
 ![image](https://github.com/user-attachments/assets/e6a74b11-52c6-4300-a905-a83c0c7a34e6)
 After you have found this page you will need to create a new application and give it a name.(The name doesn't matter) Once you have created an application navigate to the bot page on the left side of the screen and enable the 3 privileged Gateway Intents.
 ![image](https://github.com/user-attachments/assets/9408d372-1890-4a58-b2d6-ab94041f1392)
@@ -17,7 +19,7 @@ Once you have added your discord bot to the server you intend to test it in all 
 ![image](https://github.com/user-attachments/assets/b1e2124b-f301-4e36-9f68-b8db30d8dbbb)
 Marked by blue arrows you will see a string that needs to hold the bot token. Currently mine will be there, simply replace it with your own. The bot token is an important part of utilizing a bot and under normal circumstances it is a security risk to have it available, however for testing the functionality of the bot it won't matter. 
 
-Class Design: 
+## Class Design: 
 
 Bot.java:
 Uses JDA to initialize the bot, connect to Discord, and register event listeners for handling messages.
@@ -35,7 +37,7 @@ RoleManager.java
 Manages user roles with a hashmap where each user ID maps to a set of assigned roles.
 
 
-Commands and Output:
+## Commands and Output:
 
 1. !Hello
 Description: Responds with "World!" as a simple demonstration command.
@@ -73,7 +75,8 @@ Description: Lists all available commands that the bot can execute.
 
 ![image](https://github.com/user-attachments/assets/5061e5d4-37f0-49c3-b3fb-d0263ef2b13c)
 
-## Utilizing Commands: To begin utilizing the commands provided, simply start the program in Intellij by using the play button at the top right of the window while observing the bot class where main is located. This will start the program and now all you must do is type the desired command into the sever that the bot is in.
+## Utilizing Commands: 
+To begin utilizing the commands provided, simply start the program in Intellij by using the play button at the top right of the window while observing the bot class where main is located. This will start the program and now all you must do is type the desired command into the sever that the bot is in.
 
 ## Resorces for JDA: 
 https://jda.wiki/introduction/jda/
